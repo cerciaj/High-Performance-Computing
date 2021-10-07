@@ -1,0 +1,30 @@
+
+ Performance counter stats for './good':
+
+         40,400.22 msec task-clock                #    1.000 CPUs utilized          
+                93      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,036      page-faults               #    0.100 K/sec                  
+   160,295,844,908      cycles                    #    3.968 GHz                      (30.77%)
+   280,224,043,963      instructions              #    1.75  insn per cycle           (38.46%)
+    35,036,826,617      branches                  #  867.243 M/sec                    (46.15%)
+        35,413,978      branch-misses             #    0.10% of all branches          (46.15%)
+    70,026,904,022      L1-dcache-loads           # 1733.330 M/sec                    (46.09%)
+     8,773,576,123      L1-dcache-load-misses     #   12.53% of all L1-dcache hits    (15.39%)
+     5,114,337,199      LLC-loads                 #  126.592 M/sec                    (15.39%)
+       858,388,716      LLC-load-misses           #   16.78% of all LL-cache hits     (23.08%)
+   <not supported>      L1-icache-loads                                             
+         4,420,492      L1-icache-load-misses                                         (30.77%)
+    70,082,563,390      dTLB-loads                # 1734.707 M/sec                    (30.75%)
+         5,603,774      dTLB-load-misses          #    0.01% of all dTLB cache hits   (15.39%)
+             9,866      iTLB-loads                #    0.244 K/sec                    (15.39%)
+            56,914      iTLB-load-misses          #  576.87% of all iTLB cache hits   (23.08%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      40.402356060 seconds time elapsed
+
+      40.400418000 seconds user
+       0.000000000 seconds sys
+
+

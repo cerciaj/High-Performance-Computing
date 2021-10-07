@@ -1,0 +1,286 @@
+
+ Performance counter stats for './ackermann 16':
+
+   183,587,230,573 ns   duration_time                                               
+   549,803,286,968      branches                                                      (50.00%)
+     3,962,888,820      branch-misses             #    0.72% of all branches          (75.00%)
+   183,344,138,744      L1-dcache-loads                                               (75.00%)
+    45,312,970,560      L1-dcache-load-misses     #   24.71% of all L1-dcache hits    (50.00%)
+
+     183.587230573 seconds time elapsed
+
+     183.572083000 seconds user
+       0.007999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann 16':
+
+   183,532,152,702 ns   duration_time                                               
+   549,564,174,444      branches                                                      (50.00%)
+     3,949,207,713      branch-misses             #    0.72% of all branches          (75.00%)
+   183,342,062,747      L1-dcache-loads                                               (75.00%)
+    45,367,705,468      L1-dcache-load-misses     #   24.74% of all L1-dcache hits    (50.00%)
+
+     183.532152702 seconds time elapsed
+
+     183.523745000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann 16':
+
+   183,044,977,031 ns   duration_time                                               
+   549,999,256,151      branches                                                      (50.00%)
+     3,960,487,840      branch-misses             #    0.72% of all branches          (75.00%)
+   183,350,799,455      L1-dcache-loads                                               (75.00%)
+    45,344,393,403      L1-dcache-load-misses     #   24.73% of all L1-dcache hits    (50.00%)
+
+     183.044977031 seconds time elapsed
+
+     183.028958000 seconds user
+       0.007999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann 16':
+
+   184,109,793,490 ns   duration_time                                               
+   550,224,953,293      branches                                                      (50.00%)
+     4,077,436,479      branch-misses             #    0.74% of all branches          (75.00%)
+   183,284,574,058      L1-dcache-loads                                               (75.00%)
+    45,314,388,539      L1-dcache-load-misses     #   24.72% of all L1-dcache hits    (50.00%)
+
+     184.109793490 seconds time elapsed
+
+     184.097451000 seconds user
+       0.003999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann 16':
+
+   183,094,313,290 ns   duration_time                                               
+   550,232,365,853      branches                                                      (50.00%)
+     3,928,033,057      branch-misses             #    0.71% of all branches          (75.00%)
+   183,261,804,641      L1-dcache-loads                                               (75.00%)
+    45,341,436,051      L1-dcache-load-misses     #   24.74% of all L1-dcache hits    (50.00%)
+
+     183.094313290 seconds time elapsed
+
+     183.087512000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann 16':
+
+   182,890,972,243 ns   duration_time                                               
+   550,650,267,864      branches                                                      (50.00%)
+     3,960,873,032      branch-misses             #    0.72% of all branches          (75.00%)
+   183,233,128,902      L1-dcache-loads                                               (75.00%)
+    45,321,528,057      L1-dcache-load-misses     #   24.73% of all L1-dcache hits    (50.00%)
+
+     182.890972243 seconds time elapsed
+
+     182.883051000 seconds user
+       0.000000000 seconds sys
+
+
+libgcov profiling error:/home/cerciaj/ackermann.gcda:overwriting an existing profile data with a different timestamp
+
+ Performance counter stats for './ackermann_pgo 9':
+
+        29,004,835 ns   duration_time                                               
+        45,740,110      branches                                                      (44.58%)
+            65,474      branch-misses             #    0.14% of all branches          (72.29%)
+        44,500,314      L1-dcache-loads                                               (72.26%)
+         3,069,874      L1-dcache-load-misses     #    6.90% of all L1-dcache hits    (55.42%)
+
+       0.029004835 seconds time elapsed
+
+       0.025400000 seconds user
+       0.003628000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 9':
+
+        24,806,074 ns   duration_time                                               
+        43,778,520      branches                                                      (41.70%)
+            66,629      branch-misses             #    0.15% of all branches          (74.12%)
+        45,661,363      L1-dcache-loads                                               (74.50%)
+         2,825,183      L1-dcache-load-misses     #    6.19% of all L1-dcache hits    (42.09%)
+
+       0.024806074 seconds time elapsed
+
+       0.020689000 seconds user
+       0.004137000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 9':
+
+        26,937,820 ns   duration_time                                               
+        44,308,609      branches                                                      (40.33%)
+            77,740      branch-misses             #    0.18% of all branches          (70.16%)
+        45,893,137      L1-dcache-loads                                               (74.59%)
+         2,758,151      L1-dcache-load-misses     #    6.01% of all L1-dcache hits    (51.59%)
+
+       0.026937820 seconds time elapsed
+
+       0.026961000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 9':
+
+        26,759,194 ns   duration_time                                               
+        45,986,118      branches                                                      (39.93%)
+            66,272      branch-misses             #    0.14% of all branches          (69.96%)
+        45,183,782      L1-dcache-loads                                               (75.09%)
+         2,851,320      L1-dcache-load-misses     #    6.31% of all L1-dcache hits    (48.43%)
+
+       0.026759194 seconds time elapsed
+
+       0.026782000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 11':
+
+       438,032,222 ns   duration_time                                               
+       718,442,490      branches                                                      (49.92%)
+           763,391      branch-misses             #    0.11% of all branches          (75.34%)
+       714,395,476      L1-dcache-loads                                               (74.74%)
+        74,834,413      L1-dcache-load-misses     #   10.48% of all L1-dcache hits    (49.33%)
+
+       0.438032222 seconds time elapsed
+
+       0.438045000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 13':
+
+     7,339,466,886 ns   duration_time                                               
+    11,443,044,704      branches                                                      (49.98%)
+        23,218,672      branch-misses             #    0.20% of all branches          (74.99%)
+    11,456,999,193      L1-dcache-loads                                               (74.99%)
+     1,369,466,103      L1-dcache-load-misses     #   11.95% of all L1-dcache hits    (49.97%)
+
+       7.339466886 seconds time elapsed
+
+       7.339242000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 15':
+
+   122,728,141,212 ns   duration_time                                               
+   183,384,705,788      branches                                                      (50.00%)
+     1,308,136,729      branch-misses             #    0.71% of all branches          (75.00%)
+   183,322,935,822      L1-dcache-loads                                               (75.00%)
+    22,668,796,499      L1-dcache-load-misses     #   12.37% of all L1-dcache hits    (50.00%)
+
+     122.728141212 seconds time elapsed
+
+     122.714621000 seconds user
+       0.007999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 16':
+
+   163,204,861,413 ns   duration_time                                               
+   457,551,004,859      branches                                                      (50.00%)
+     5,403,108,405      branch-misses             #    1.18% of all branches          (75.00%)
+   183,391,250,202      L1-dcache-loads                                               (75.00%)
+    45,326,748,953      L1-dcache-load-misses     #   24.72% of all L1-dcache hits    (50.00%)
+
+     163.204861413 seconds time elapsed
+
+     163.193474000 seconds user
+       0.003999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 16':
+
+   162,026,129,846 ns   duration_time                                               
+   458,337,004,948      branches                                                      (50.00%)
+     5,328,310,308      branch-misses             #    1.16% of all branches          (75.00%)
+   183,381,962,036      L1-dcache-loads                                               (75.00%)
+    45,221,103,734      L1-dcache-load-misses     #   24.66% of all L1-dcache hits    (50.00%)
+
+     162.026129846 seconds time elapsed
+
+     162.007244000 seconds user
+       0.011999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 16':
+
+   162,738,136,072 ns   duration_time                                               
+   458,039,846,987      branches                                                      (50.00%)
+     5,356,944,318      branch-misses             #    1.17% of all branches          (75.00%)
+   183,373,524,695      L1-dcache-loads                                               (75.00%)
+    45,237,981,374      L1-dcache-load-misses     #   24.67% of all L1-dcache hits    (50.00%)
+
+     162.738136072 seconds time elapsed
+
+     162.727745000 seconds user
+       0.003999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 16':
+
+   162,299,735,277 ns   duration_time                                               
+   458,360,634,451      branches                                                      (50.00%)
+     5,355,287,858      branch-misses             #    1.17% of all branches          (75.00%)
+   183,364,117,440      L1-dcache-loads                                               (75.00%)
+    45,300,785,587      L1-dcache-load-misses     #   24.71% of all L1-dcache hits    (50.00%)
+
+     162.299735277 seconds time elapsed
+
+     162.293019000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 16':
+
+   165,282,820,046 ns   duration_time                                               
+   458,427,443,215      branches                                                      (50.00%)
+     5,473,690,714      branch-misses             #    1.19% of all branches          (75.00%)
+   183,166,676,213      L1-dcache-loads                                               (75.00%)
+    45,410,853,121      L1-dcache-load-misses     #   24.79% of all L1-dcache hits    (50.00%)
+
+     165.282820046 seconds time elapsed
+
+     165.270270000 seconds user
+       0.003999000 seconds sys
+
+
+
+ Performance counter stats for './ackermann_pgo 16':
+
+   162,659,037,217 ns   duration_time                                               
+   458,275,401,784      branches                                                      (50.00%)
+     5,403,562,025      branch-misses             #    1.18% of all branches          (75.00%)
+   183,283,460,266      L1-dcache-loads                                               (75.00%)
+    45,295,009,889      L1-dcache-load-misses     #   24.71% of all L1-dcache hits    (50.00%)
+
+     162.659037217 seconds time elapsed
+
+     162.642927000 seconds user
+       0.007999000 seconds sys
+
+

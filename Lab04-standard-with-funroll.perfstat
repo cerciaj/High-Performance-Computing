@@ -1,0 +1,150 @@
+
+ Performance counter stats for './unroll-with-funroll standard':
+
+         34,235.74 msec task-clock                #    1.000 CPUs utilized          
+                75      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               122      page-faults               #    0.004 K/sec                  
+   136,327,499,471      cycles                    #    3.982 GHz                      (30.76%)
+   378,906,000,432      instructions              #    2.78  insn per cycle           (38.46%)
+    11,006,027,203      branches                  #  321.478 M/sec                    (46.16%)
+           340,918      branch-misses             #    0.00% of all branches          (46.17%)
+   170,025,908,668      L1-dcache-loads           # 4966.328 M/sec                    (46.10%)
+           468,177      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.39%)
+            61,415      LLC-loads                 #    0.002 M/sec                    (15.38%)
+            23,109      LLC-load-misses           #   37.63% of all LL-cache hits     (23.07%)
+   <not supported>      L1-icache-loads                                             
+           438,422      L1-icache-load-misses                                         (30.76%)
+   170,064,879,579      dTLB-loads                # 4967.467 M/sec                    (30.73%)
+            18,028      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+            12,142      iTLB-loads                #    0.355 K/sec                    (15.38%)
+               251      iTLB-load-misses          #    2.07% of all iTLB cache hits   (23.06%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      34.237018118 seconds time elapsed
+
+      34.236027000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll-with-funroll standard':
+
+         34,238.65 msec task-clock                #    1.000 CPUs utilized          
+                86      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               121      page-faults               #    0.004 K/sec                  
+   136,326,527,672      cycles                    #    3.982 GHz                      (30.75%)
+   378,930,649,283      instructions              #    2.78  insn per cycle           (38.45%)
+    11,006,724,661      branches                  #  321.471 M/sec                    (46.15%)
+           341,093      branch-misses             #    0.00% of all branches          (46.16%)
+   170,031,670,104      L1-dcache-loads           # 4966.074 M/sec                    (46.10%)
+           489,448      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.40%)
+            62,606      LLC-loads                 #    0.002 M/sec                    (15.39%)
+            24,340      LLC-load-misses           #   38.88% of all LL-cache hits     (23.08%)
+   <not supported>      L1-icache-loads                                             
+           422,617      L1-icache-load-misses                                         (30.76%)
+   170,040,535,308      dTLB-loads                # 4966.333 M/sec                    (30.73%)
+            17,965      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.37%)
+            13,132      iTLB-loads                #    0.384 K/sec                    (15.37%)
+               221      iTLB-load-misses          #    1.68% of all iTLB cache hits   (23.06%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      34.239946323 seconds time elapsed
+
+      34.238908000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll-with-funroll standard':
+
+         34,237.06 msec task-clock                #    1.000 CPUs utilized          
+                82      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               125      page-faults               #    0.004 K/sec                  
+   136,323,514,341      cycles                    #    3.982 GHz                      (30.75%)
+   378,910,515,812      instructions              #    2.78  insn per cycle           (38.45%)
+    11,006,210,229      branches                  #  321.471 M/sec                    (46.15%)
+           347,394      branch-misses             #    0.00% of all branches          (46.16%)
+   170,015,427,066      L1-dcache-loads           # 4965.830 M/sec                    (46.10%)
+           502,559      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.40%)
+            61,788      LLC-loads                 #    0.002 M/sec                    (15.39%)
+            23,687      LLC-load-misses           #   38.34% of all LL-cache hits     (23.08%)
+   <not supported>      L1-icache-loads                                             
+           437,271      L1-icache-load-misses                                         (30.76%)
+   170,055,242,466      dTLB-loads                # 4966.993 M/sec                    (30.73%)
+            17,619      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.37%)
+            12,416      iTLB-loads                #    0.363 K/sec                    (15.37%)
+               221      iTLB-load-misses          #    1.78% of all iTLB cache hits   (23.06%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      34.238313247 seconds time elapsed
+
+      34.237345000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll-with-funroll standard':
+
+         34,228.58 msec task-clock                #    1.000 CPUs utilized          
+                88      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               125      page-faults               #    0.004 K/sec                  
+   136,338,797,916      cycles                    #    3.983 GHz                      (30.77%)
+   378,928,139,759      instructions              #    2.78  insn per cycle           (38.47%)
+    11,006,389,980      branches                  #  321.556 M/sec                    (46.17%)
+           367,854      branch-misses             #    0.00% of all branches          (46.18%)
+   170,021,753,679      L1-dcache-loads           # 4967.245 M/sec                    (46.10%)
+           514,140      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.38%)
+            38,209      LLC-loads                 #    0.001 M/sec                    (15.38%)
+            12,341      LLC-load-misses           #   32.30% of all LL-cache hits     (23.07%)
+   <not supported>      L1-icache-loads                                             
+           506,777      L1-icache-load-misses                                         (30.76%)
+   170,054,090,656      dTLB-loads                # 4968.189 M/sec                    (30.73%)
+            20,853      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+            19,273      iTLB-loads                #    0.563 K/sec                    (15.38%)
+               671      iTLB-load-misses          #    3.48% of all iTLB cache hits   (23.07%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      34.229873994 seconds time elapsed
+
+      34.228918000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll-with-funroll standard':
+
+         34,358.83 msec task-clock                #    1.000 CPUs utilized          
+               127      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               124      page-faults               #    0.004 K/sec                  
+   136,830,876,895      cycles                    #    3.982 GHz                      (30.75%)
+   378,926,027,050      instructions              #    2.77  insn per cycle           (38.44%)
+    11,006,927,105      branches                  #  320.352 M/sec                    (46.14%)
+           359,587      branch-misses             #    0.00% of all branches          (46.15%)
+   170,018,092,999      L1-dcache-loads           # 4948.309 M/sec                    (46.08%)
+           487,752      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.39%)
+            39,090      LLC-loads                 #    0.001 M/sec                    (15.39%)
+            14,502      LLC-load-misses           #   37.10% of all LL-cache hits     (23.08%)
+   <not supported>      L1-icache-loads                                             
+           445,126      L1-icache-load-misses                                         (30.78%)
+   170,054,376,770      dTLB-loads                # 4949.365 M/sec                    (30.76%)
+            20,631      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+            11,146      iTLB-loads                #    0.324 K/sec                    (15.37%)
+             1,062      iTLB-load-misses          #    9.53% of all iTLB cache hits   (23.05%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      34.360415542 seconds time elapsed
+
+      34.359293000 seconds user
+       0.000000000 seconds sys
+
+

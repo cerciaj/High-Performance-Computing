@@ -1,0 +1,30 @@
+
+ Performance counter stats for './bad':
+
+        492,882.89 msec task-clock                #    1.000 CPUs utilized          
+             1,606      context-switches          #    0.003 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+             4,031      page-faults               #    0.008 K/sec                  
+ 1,956,793,409,943      cycles                    #    3.970 GHz                      (30.77%)
+   280,888,516,063      instructions              #    0.14  insn per cycle           (38.46%)
+    35,155,718,892      branches                  #   71.327 M/sec                    (46.15%)
+        38,696,086      branch-misses             #    0.11% of all branches          (46.15%)
+    70,228,682,389      L1-dcache-loads           #  142.486 M/sec                    (46.15%)
+    87,195,703,028      L1-dcache-load-misses     #  124.16% of all L1-dcache hits    (15.38%)
+    14,151,615,713      LLC-loads                 #   28.712 M/sec                    (15.38%)
+     8,709,038,532      LLC-load-misses           #   61.54% of all LL-cache hits     (23.08%)
+   <not supported>      L1-icache-loads                                             
+        25,663,684      L1-icache-load-misses                                         (30.77%)
+    70,238,090,438      dTLB-loads                #  142.505 M/sec                    (30.77%)
+    66,394,052,564      dTLB-load-misses          #   94.53% of all dTLB cache hits   (15.38%)
+            31,889      iTLB-loads                #    0.065 K/sec                    (15.38%)
+           563,638      iTLB-load-misses          # 1767.50% of all iTLB cache hits   (23.08%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+     492.913121000 seconds time elapsed
+
+     492.870660000 seconds user
+       0.011999000 seconds sys
+
+

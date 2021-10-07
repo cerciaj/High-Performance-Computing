@@ -1,0 +1,150 @@
+
+ Performance counter stats for './unroll unrolled':
+
+         25,231.00 msec task-clock                #    1.000 CPUs utilized          
+                85      context-switches          #    0.003 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               123      page-faults               #    0.005 K/sec                  
+   100,457,508,836      cycles                    #    3.982 GHz                      (30.76%)
+   335,012,165,932      instructions              #    3.33  insn per cycle           (38.47%)
+    15,006,203,356      branches                  #  594.753 M/sec                    (46.17%)
+           255,083      branch-misses             #    0.00% of all branches          (46.18%)
+   170,009,846,315      L1-dcache-loads           # 6738.135 M/sec                    (46.08%)
+           341,547      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.38%)
+            33,107      LLC-loads                 #    0.001 M/sec                    (15.38%)
+            15,950      LLC-load-misses           #   48.18% of all LL-cache hits     (23.07%)
+   <not supported>      L1-icache-loads                                             
+           342,621      L1-icache-load-misses                                         (30.75%)
+   170,028,515,887      dTLB-loads                # 6738.875 M/sec                    (30.72%)
+            14,176      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+             9,949      iTLB-loads                #    0.394 K/sec                    (15.38%)
+               793      iTLB-load-misses          #    7.97% of all iTLB cache hits   (23.07%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      25.232466178 seconds time elapsed
+
+      25.231364000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll unrolled':
+
+         25,222.90 msec task-clock                #    1.000 CPUs utilized          
+               101      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               122      page-faults               #    0.005 K/sec                  
+   100,456,088,566      cycles                    #    3.983 GHz                      (30.77%)
+   334,916,733,748      instructions              #    3.33  insn per cycle           (38.47%)
+    15,003,317,955      branches                  #  594.829 M/sec                    (46.16%)
+           289,256      branch-misses             #    0.00% of all branches          (46.16%)
+   170,025,478,380      L1-dcache-loads           # 6740.916 M/sec                    (46.06%)
+           429,701      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.38%)
+            35,807      LLC-loads                 #    0.001 M/sec                    (15.38%)
+             8,559      LLC-load-misses           #   23.90% of all LL-cache hits     (23.07%)
+   <not supported>      L1-icache-loads                                             
+           338,656      L1-icache-load-misses                                         (30.76%)
+   170,052,751,665      dTLB-loads                # 6741.998 M/sec                    (30.73%)
+            13,105      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+             7,957      iTLB-loads                #    0.315 K/sec                    (15.38%)
+            48,926      iTLB-load-misses          #  614.88% of all iTLB cache hits   (23.07%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      25.224201500 seconds time elapsed
+
+      25.223306000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll unrolled':
+
+         27,044.56 msec task-clock                #    1.000 CPUs utilized          
+                68      context-switches          #    0.003 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               124      page-faults               #    0.005 K/sec                  
+   107,686,863,991      cycles                    #    3.982 GHz                      (30.78%)
+   334,886,287,854      instructions              #    3.11  insn per cycle           (38.47%)
+    15,002,140,555      branches                  #  554.719 M/sec                    (46.16%)
+           323,953      branch-misses             #    0.00% of all branches          (46.16%)
+   170,011,689,095      L1-dcache-loads           # 6286.354 M/sec                    (46.06%)
+           371,955      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.38%)
+            46,510      LLC-loads                 #    0.002 M/sec                    (15.38%)
+            17,878      LLC-load-misses           #   38.44% of all LL-cache hits     (23.07%)
+   <not supported>      L1-icache-loads                                             
+           350,246      L1-icache-load-misses                                         (30.76%)
+   170,281,906,729      dTLB-loads                # 6296.345 M/sec                    (30.73%)
+            15,544      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+            10,993      iTLB-loads                #    0.406 K/sec                    (15.38%)
+               164      iTLB-load-misses          #    1.49% of all iTLB cache hits   (23.07%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      27.045681212 seconds time elapsed
+
+      27.040896000 seconds user
+       0.003999000 seconds sys
+
+
+
+ Performance counter stats for './unroll unrolled':
+
+         26,951.49 msec task-clock                #    1.000 CPUs utilized          
+                46      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               121      page-faults               #    0.004 K/sec                  
+   107,351,336,978      cycles                    #    3.983 GHz                      (30.75%)
+   335,021,848,913      instructions              #    3.12  insn per cycle           (38.46%)
+    15,009,150,288      branches                  #  556.895 M/sec                    (46.16%)
+           290,742      branch-misses             #    0.00% of all branches          (46.17%)
+   170,089,563,296      L1-dcache-loads           # 6310.952 M/sec                    (46.09%)
+           467,414      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.39%)
+            34,614      LLC-loads                 #    0.001 M/sec                    (15.38%)
+            12,812      LLC-load-misses           #   37.01% of all LL-cache hits     (23.06%)
+   <not supported>      L1-icache-loads                                             
+           396,155      L1-icache-load-misses                                         (30.75%)
+   169,854,489,871      dTLB-loads                # 6302.230 M/sec                    (30.72%)
+            14,217      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+            15,680      iTLB-loads                #    0.582 K/sec                    (15.38%)
+                78      iTLB-load-misses          #    0.50% of all iTLB cache hits   (23.06%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      26.952409031 seconds time elapsed
+
+      26.951689000 seconds user
+       0.000000000 seconds sys
+
+
+
+ Performance counter stats for './unroll unrolled':
+
+         26,942.06 msec task-clock                #    1.000 CPUs utilized          
+                61      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               122      page-faults               #    0.005 K/sec                  
+   107,289,856,614      cycles                    #    3.982 GHz                      (30.77%)
+   334,494,095,166      instructions              #    3.12  insn per cycle           (38.47%)
+    14,979,619,860      branches                  #  555.994 M/sec                    (46.17%)
+           300,903      branch-misses             #    0.00% of all branches          (46.17%)
+   169,753,842,550      L1-dcache-loads           # 6300.700 M/sec                    (46.07%)
+           388,878      L1-dcache-load-misses     #    0.00% of all L1-dcache hits    (15.38%)
+            48,112      LLC-loads                 #    0.002 M/sec                    (15.38%)
+            14,060      LLC-load-misses           #   29.22% of all LL-cache hits     (23.07%)
+   <not supported>      L1-icache-loads                                             
+           373,766      L1-icache-load-misses                                         (30.76%)
+   170,099,902,110      dTLB-loads                # 6313.545 M/sec                    (30.73%)
+            15,350      dTLB-load-misses          #    0.00% of all dTLB cache hits   (15.38%)
+            10,032      iTLB-loads                #    0.372 K/sec                    (15.38%)
+               164      iTLB-load-misses          #    1.63% of all iTLB cache hits   (23.07%)
+   <not supported>      L1-dcache-prefetches                                        
+   <not supported>      L1-dcache-prefetch-misses                                   
+
+      26.943095221 seconds time elapsed
+
+      26.942363000 seconds user
+       0.000000000 seconds sys
+
+
